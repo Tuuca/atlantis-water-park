@@ -2,7 +2,7 @@ import Menu from "../interfaces/menu";
 
 export default class MenuTipoCadastroCliente implements Menu {
     mostrar(): void {
-        console.clear()
+        //console.clear()
         console.log(`****************************`)
         console.log(`| Qual o tipo do cliente para cadastro? `)
         console.log(`----------------------`)

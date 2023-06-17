@@ -13,11 +13,11 @@ export default class DiretorSolteiroSimples extends Diretor<Acomodacao> {
     public construir(): Acomodacao {
         let objetoConstrutor = this.construtor as ConstrutorAcomodacao
         objetoConstrutor.NomeAcomodacao = NomeAcomadacao.SolteiroSimples
-        objetoConstrutor.CamaCasal = 0
         objetoConstrutor.CamaSolteiro = 1
+        objetoConstrutor.CamaCasal = 0
+        objetoConstrutor.Suite = 1
         objetoConstrutor.Climatizacao = true
         objetoConstrutor.Garagem = 0
-        objetoConstrutor.Suite = 1
         return objetoConstrutor.construir()
     }
 }
